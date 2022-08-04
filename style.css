@@ -15,7 +15,7 @@
 
 .grid {
     flex: 1 1 calc(100% / var(--gridsize));
-    border: 1px black solid;
+    border: 1px cornflowerblue solid;
     background-color: white;
 }
 
