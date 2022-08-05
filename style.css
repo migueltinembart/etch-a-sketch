@@ -1,22 +1,30 @@
 :root {
-    --gridsize: 16; 
+    --gridsize: 16;
 } 
-
 
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    padding: 0 10% ;
+    padding: 0;
     width:500px;
     height: 500px;
 }
 
+.actionMenu {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
 .grid {
+     
+    margin: 0;
+    padding: 0;
     flex: 1 1 calc(100% / var(--gridsize));
     border: 1px cornflowerblue solid;
-    background-color: white;
+    box-sizing: border-box;
 }
 
 .hover {
